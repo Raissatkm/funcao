@@ -9,8 +9,7 @@ Uma **função** em JavaScript é um bloco de código projetado para realizar um
 A sintaxe básica de uma função é a seguinte:
 
 ```jsx
-Javascript-escritor
-Copiar código
+
 function nomeDaFuncao(parâmetros) {
   // código a ser executado
   return resultado; // opcional
@@ -32,8 +31,7 @@ function nomeDaFuncao(parâmetros) {
 Vamos criar uma função que soma dois números:
 
 ```jsx
-Javascript-escritor
-Copiar código
+
 function somar(a, b) {
   return a + b;
 }let resultado = somar(5, 3);
@@ -63,8 +61,7 @@ Neste exemplo:
     São funções com um nome especificado. Exemplo:
     
     ```jsx
-    Javascript-escritor
-    Copiar código
+   
     function saudacao() {
       console.log("Olá!");
     }saudacao(); // Saída: Olá!
@@ -76,8 +73,7 @@ Neste exemplo:
     Funções sem um nome. Elas são frequentemente usadas como funções de retorno de chamada.
     
     ```jsx
-    Javascript-escritor
-    Copiar código
+   
     const saudacao = function() {
       console.log("Oi!");
     };saudacao(); // Saída: Oi!
@@ -89,8 +85,7 @@ Neste exemplo:
     Introduzidas no ES6, são uma forma mais curta de escrever funções.
     
     ```jsx
-    Javascript-escritor
-    Copiar código
+  
     const somar = (a, b) => a + b;console.log(somar(2, 3)); // Saída: 5
     
     ```
@@ -103,8 +98,7 @@ Neste exemplo:
 Você pode definir valores padrão para configurações que não foram passadas na chamada da função:
 
 ```jsx
-Javascript-escritor
-Copiar código
+
 function saudacao(nome = "Amigo") {
   console.log(`Olá, ${nome}!`);
 }saudacao(); // Saída: Olá, Amigo!
@@ -117,8 +111,7 @@ saudacao("Ana"); // Saída: Olá, Ana!
 Funções que conferem outras funções como cláusulas ou retorno de funções.
 
 ```jsx
-Javascript-escritor
-Copiar código
+
 function executarOperacao(a, b, operacao) {
   return operacao(a, b);
 }const multiplicar = (x, y) => x * y;
@@ -140,8 +133,7 @@ console.log(executarOperacao(5, 3, multiplicar)); // Saída: 15
     
 
 ```jsx
-Javascript-escritor
-Copiar código
+
 function multiplicar(a, b) {
   let resultado = a * b;
   return resultado;
@@ -154,8 +146,7 @@ function multiplicar(a, b) {
 Crie uma função que calcula a área de um retângulo:
 
 ```jsx
-Javascript-escritor
-Copiar código
+
 function calcularAreaRetangulo(largura, altura) {
   return largura * altura;
 }console.log(calcularAreaRetangulo(5, 10)); // Saída: 50
